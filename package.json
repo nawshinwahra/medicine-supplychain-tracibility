@@ -1,0 +1,40 @@
+{
+  "name": "blockchain2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node_1": "nodemon --watch dev -e js dev/networkNode.js 3001 http://localhost:3001",
+    "node_2": "nodemon --watch dev -e js dev/networkNode.js 3002 http://localhost:3002",
+    "node_3": "nodemon --watch dev -e js dev/networkNode.js 3003 http://localhost:3003",
+    "node_4": "nodemon --watch dev -e js dev/networkNode.js 3004 http://localhost:3004",
+    "node_5": "nodemon --watch dev -e js dev/networkNode.js 3005 http://localhost:3005",
+    "node_6": "nodemon --watch dev -e js dev/networkNode.js 3006 http://localhost:3006",
+    "node_7": "nodemon --watch dev -e js dev/networkNode.js 3007 http://localhost:3007",
+    "node_8": "nodemon --watch dev -e js dev/networkNode.js 3008 http://localhost:3008",
+    "node_9": "nodemon --watch dev -e js dev/networkNode.js 3009 http://localhost:3009",
+    "node_10": "nodemon --watch dev -e js dev/networkNode.js 3010 http://localhost:3010",
+    "node_11": "nodemon --watch dev -e js dev/networkNode.js 3011 http://localhost:3011",
+    "node_12": "nodemon --watch dev -e js dev/networkNode.js 3012 http://localhost:3012",
+    "node_13": "nodemon --watch dev -e js dev/networkNode.js 3013 http://localhost:30013",
+    "node_14": "nodemon --watch dev -e js dev/networkNode.js 3014 http://localhost:3014",
+    "node_15": "nodemon --watch dev -e js dev/networkNode.js 3015 http://localhost:3015",
+    "node_16": "nodemon --watch dev -e js dev/networkNode.js 3016 http://localhost:3016",
+    "node_17": "nodemon --watch dev -e js dev/networkNode.js 3017 http://localhost:3017",
+    "node_18": "nodemon --watch dev -e js dev/networkNode.js 3018 http://localhost:3018",
+    "node_19": "nodemon --watch dev -e js dev/networkNode.js 3019 http://localhost:3019",
+    "node_20": "nodemon --watch dev -e js dev/networkNode.js 3020 http://localhost:3020"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  }
+}
